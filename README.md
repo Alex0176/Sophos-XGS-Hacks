@@ -9,8 +9,11 @@ chmod +x SCRIPTNAME
 
 - Rule #1
 Scripts can not run vom /tmp - thats a security feature. You have to put it in for example /bin. This part of the image is only ready only mounted. So you have to mount it writeable and after changes mount it readonly again.
+
 mount -o remount,rw /
+
 after changes - dont forget to make your script runable!
+
 mount -o remount,ro /
 
 Scripts: 
