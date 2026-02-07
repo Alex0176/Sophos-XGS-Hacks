@@ -2,7 +2,7 @@
 
 the Goal is to help people with Sophos XGS Firewall issues and solutions a little bit away from the supported way. 
 
-##Scripts 
+## Scripts 
 
  - check-ipsec.sh The script check your IPSec Tunnel that you named in
    the argument of the script. If the Tunnel is not ,,INSTALLED", the
